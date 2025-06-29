@@ -1,0 +1,21 @@
+
+#bubbleSorting algorithm 
+
+def bubbleSort(input_array):
+    array_length=len(input_array) - 1
+
+    for iteration in range(array_length):
+        for iter_next_val in range(array_length - iteration ) :
+            print("Array length=",array_length)
+            print("iteration=",iteration)
+            print("iter_next_val=",iter_next_val)
+            print(input_array[iter_next_val],input_array[iter_next_val + 1])
+        
+            if input_array[iter_next_val] > input_array[iter_next_val + 1]:
+                input_array[iter_next_val] , input_array[iter_next_val + 1] = input_array[iter_next_val + 1] , input_array[iter_next_val]
+            print(input_array[iter_next_val],input_array[iter_next_val + 1])
+    print(input_array)
+
+input_array=[3,1,6,8,7,5]
+bubbleSort(input_array)
+
