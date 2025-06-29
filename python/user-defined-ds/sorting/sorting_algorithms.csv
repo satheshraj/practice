@@ -1,0 +1,12 @@
+﻿Type,Rule,Description
+Merge sort,Divide & Conquer,The given list is first divided into smaller lists & compares adjacent lists & then reorders them in the desired sequence.
+Bubble sort ,Comparison algorithm,Comparison algorithm that first compares and then sorts adjacent elements if they are not in the specified order
+Insertion sort ,,Picks 1 element of a given list at a time & places it at the exact stop where it is to be placed.
+Selection sort,,
+Shell sort,,
+,,
+,,
+,,
+,,
+,,
+,,
