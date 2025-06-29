@@ -20,3 +20,6 @@ print(empty_list)
 #Added value to empty list
 empty_list.append("Added_value")
 print(empty_list)
+
+
+#check , remove & update
